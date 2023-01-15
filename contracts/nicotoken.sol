@@ -3,7 +3,7 @@ pragma solidity >=0.4.22 <0.9.0;
 
 import "./ierc20.sol";
 
-contract nicotoken is IERC20 {
+contract nicotoken is IERC20Local {
 
   function hi() public pure returns (string memory) {        
     return ("Hello World");    
